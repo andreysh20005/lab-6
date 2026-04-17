@@ -36,27 +36,45 @@
 
     public float D
     {
-        get { return _d; }
+        get 
+        { 
+            return _d; 
+        }
     }
     public float X1
     {
-        get { return _x1; }
+        get 
+        { 
+            return _x1;
+        }
     }
-    public float X2
+    public float X2 
     {
-        get{ return _x2; }
+        get
+        { 
+            return _x2; 
+        }
     }
     public float A
     {
-        get { return Num1; }
+        get 
+        { 
+            return Num1; 
+        }
     }
     public float B
     {
-        get { return Num2; }
+        get 
+        {
+            return Num2; 
+        }
     }
     public float C
     {
-        get { return Num3; }
+        get 
+        { 
+            return Num3; 
+        }
     }
 
 

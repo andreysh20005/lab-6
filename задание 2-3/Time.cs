@@ -20,14 +20,26 @@
 
     public byte Hours
     {
-        get { return hours; }
-        private set { hours = value; }
+        get 
+        {
+            return hours;
+        }
+        private set 
+        {
+            hours = value;
+        }
     }
 
     public byte Minutes
     {
-        get { return minutes; }
-        private set { minutes = value; }
+        get 
+        {
+            return minutes;
+        }
+        private set 
+        {
+            minutes = value;
+        }
     }
 
 

@@ -27,18 +27,36 @@
 
     public int Num1
     {
-        get { return _num1; }
-        private set { _num1 = value; }
+        get 
+        {
+            return _num1; 
+        }
+        private set 
+        {
+            _num1 = value; 
+        }
     }
     public int Num2
     {
-        get { return _num2; }
-        private set { _num2 = value; }
+        get 
+        {
+            return _num2;
+        }
+        private set 
+        {
+            _num2 = value; 
+        }
     }
     public int Num3
     {
-        get { return _num3; }
-        private set { _num3 = value; }
+        get 
+        {
+            return _num3;
+        }
+        private set 
+        {
+            _num3 = value;
+        }
     }
 
 
