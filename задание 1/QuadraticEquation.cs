@@ -84,6 +84,12 @@
     }
     private void Solve()
     {
+        if (A == 0)
+        {
+            _x1 = -C / B;
+            _x2 = -X1;
+        }
+
         if (D == 0)
         {
             _x1 = -B/(2*A);
