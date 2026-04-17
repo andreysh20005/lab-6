@@ -3,7 +3,7 @@
     private byte hours;
     private byte minutes;
 
-    // конструкторы
+
     public Time(byte hours, byte minutes)
     {
         int total = hours * 60 + minutes;
@@ -17,7 +17,7 @@
         this.hours = 0;
         this.minutes = 0;
     }
-    // свойства
+
     public byte Hours
     {
         get { return hours; }
@@ -30,7 +30,7 @@
         private set { minutes = value; }
     }
 
-    // перегрузка операций
+
     public static Time operator -(Time t1, Time t2)
     {
         int total1 = t1.hours * 60 + t1.minutes;
@@ -76,6 +76,6 @@
     }
     public override string ToString()
     {
-        return Hours + ":" + minutes;
+        return $"{Hours}:{minutes}";
     }
 }

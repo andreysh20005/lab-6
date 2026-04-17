@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\lab 6\\задание 2-3\\задание 2-3.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\задание 2-3\\задание 2-3.csproj",
       "projectName": "задание 2-3",
-      "projectPath": "C:\\Users\\andre\\source\\repos\\lab 6\\задание 2-3\\задание 2-3.csproj",
+      "projectPath": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\задание 2-3\\задание 2-3.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\source\\repos\\lab 6\\задание 2-3\\obj\\",
+      "outputPath": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\задание 2-3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",

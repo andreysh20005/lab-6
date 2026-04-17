@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\andre\\source\\repos\\lab 6\\",
+  "WorkspaceRootPath": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D20BAEF-C0F6-4C5E-9CC6-EE7E0271A70B}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj|c:\\users\\andre\\source\\repos\\lab 6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D20BAEF-C0F6-4C5E-9CC6-EE7E0271A70B}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj|solutionrelative:\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5FE9F92-2573-AAB5-1FBF-BF5CA766EA93}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj|c:\\users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5FE9F92-2573-AAB5-1FBF-BF5CA766EA93}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj|solutionrelative:\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D20BAEF-C0F6-4C5E-9CC6-EE7E0271A70B}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj|c:\\users\\andre\\source\\repos\\lab 6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D20BAEF-C0F6-4C5E-9CC6-EE7E0271A70B}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj|solutionrelative:\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5FE9F92-2573-AAB5-1FBF-BF5CA766EA93}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj|c:\\users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A5FE9F92-2573-AAB5-1FBF-BF5CA766EA93}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj|solutionrelative:\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5FE9F92-2573-AAB5-1FBF-BF5CA766EA93}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj|c:\\users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5FE9F92-2573-AAB5-1FBF-BF5CA766EA93}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj|solutionrelative:\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Time.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\lab 6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Time.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Time.cs",
               "RelativeDocumentMoniker": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Time.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\lab 6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Time.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Time.cs",
               "RelativeToolTip": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Time.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T19:05:58.787Z",
+              "WhenOpened": "2026-04-17T06:33:43.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Program.cs",
+              "RelativeDocumentMoniker": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Program.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Program.cs",
+              "RelativeToolTip": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T06:31:27.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\lab 6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Program.cs",
-              "RelativeDocumentMoniker": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Program.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\lab 6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Program.cs",
-              "RelativeToolTip": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Program.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAAEoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T19:05:08.27Z",
+              "Title": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj",
+              "RelativeDocumentMoniker": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj",
+              "RelativeToolTip": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-17T06:31:25.419Z",
               "EditorCaption": ""
             }
           ]

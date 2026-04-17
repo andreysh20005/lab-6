@@ -8,7 +8,7 @@ internal class Program
         Time t1 = new Time(10, 30);
         Time t2 = new Time(23, 45);
         Time t3 = new Time(5, 15);
-        Time t4 = new Time(0, 0);
+        Time t4 = new Time(6, 0);
         Time t5 = new Time(25, 70); // проверка нормализации
 
         Console.WriteLine("Конструкторы и ToString():");

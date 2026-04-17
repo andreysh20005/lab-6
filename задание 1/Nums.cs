@@ -1,57 +1,54 @@
 ﻿internal class Nums
 {
-    // поля
-    private int num1;
-    private int num2;
-    private int num3;
+    private int _num1;
+    private int _num2;
+    private int _num3;
 
-    // конструкторы
+
     public Nums()
     {
-        this.num1 = 0;
-        this.num2 = 0;
-        this.num3 = 0;
+        this._num1 = 0;
+        this._num2 = 0;
+        this._num3 = 0;
     }
-
     public Nums(int a, int b, int c)
     {
-        this.num1 = a;
-        this.num2 = b;
-        this.num3 = c;
+        this._num1 = a;
+        this._num2 = b;
+        this._num3 = c;
     }
-
     public Nums(Nums nums)
     {
-        this.num1 = nums.num1;
-        this.num2 = nums.num2;
-        this.num3 = nums.num3;
+        this._num1 = nums._num1;
+        this._num2 = nums._num2;
+        this._num3 = nums._num3;
     }
 
-    // свойства
+
     public int Num1
     {
-        get { return num1; }
-        private set { num1 = value; }
+        get { return _num1; }
+        private set { _num1 = value; }
     }
     public int Num2
     {
-        get { return num2; }
-        private set { num2 = value; }
+        get { return _num2; }
+        private set { _num2 = value; }
     }
     public int Num3
     {
-        get { return num3; }
-        private set { num3 = value; }
+        get { return _num3; }
+        private set { _num3 = value; }
     }
-    // методы
+
+
     public int Multiply()
     {
-        return Num1 * Num2 * this.num3;
+        return Num1 * Num2 * this._num3;
     }
-    // перегрузки
     public override string ToString()
     {
-        return this.num1 + ", " + this.num2 + ", " + this.num3;
+        return $"{this._num1}, {this._num2}, this.num3";
     }
 
 }
