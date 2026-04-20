@@ -51,5 +51,40 @@
         Console.WriteLine("мы всё ещё можем вызывать методы " +
             "родительского класса");
         Console.WriteLine(bb.Multiply());
+
+        Console.WriteLine("\n\nручное тестирование:");
+        while (true)
+        {
+            QuadraticEquation manual = new QuadraticEquation();
+            Console.WriteLine("\n\na*x^2 + b*x + c = 0");
+            Console.WriteLine("Введите a:");
+            bool ok = int.TryParse(Console.ReadLine(), out int res);
+            if (ok)
+            {
+                Console.WriteLine("Введите b:");
+                manual.A = res;
+                ok = int.TryParse(Console.ReadLine(), out res);
+                if (ok)
+                {
+                    Console.WriteLine("Введите c:");
+                    manual.B = res;
+                    ok = int.TryParse(Console.ReadLine(), out res);
+                    if (ok)
+                    {
+                        manual.C = res;
+
+                        Console.WriteLine($"Уравнение: {manual}");
+                        Console.WriteLine($"Дискреминант: {manual.D}");
+                        Console.WriteLine(manual.PrintAnsver());
+                        
+                    }
+                }
+            }
+            if (!ok)
+            {
+                Console.WriteLine("неверный формат ввода!");
+            }
+            
+        }
     }
 }

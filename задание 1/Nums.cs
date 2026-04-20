@@ -31,7 +31,7 @@
         {
             return _num1; 
         }
-        private set 
+        set 
         {
             _num1 = value; 
         }
@@ -42,7 +42,7 @@
         {
             return _num2;
         }
-        private set 
+        set 
         {
             _num2 = value; 
         }
@@ -53,7 +53,7 @@
         {
             return _num3;
         }
-        private set 
+        set 
         {
             _num3 = value;
         }
@@ -62,11 +62,11 @@
 
     public int Multiply()
     {
-        return Num1 * Num2 * this._num3;
+        return Num1 * Num2 * Num3;
     }
     public override string ToString()
     {
-        return $"{this._num1}, {this._num2}, this.num3";
+        return $"{this._num1}, {this._num2}, {this._num3}";
     }
 
 }

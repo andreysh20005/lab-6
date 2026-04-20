@@ -64,5 +64,37 @@ internal class Program
         Console.WriteLine($"{t1} > {t3} = {t1 > t3}");
         Console.WriteLine($"{t1} < {t1} = {t1 < t1}");
         Console.WriteLine();
+
+        Console.WriteLine("\n\nручное тестирование:");
+        while (true)
+        {
+            Console.WriteLine("Ввод первого времени");
+            Time manual1 = new Time();
+            Time manual2 = new Time(); 
+            try
+            {
+                 manual1 = Time.Input();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+
+            }
+
+
+           Console.WriteLine("Введите второе время:");
+            try
+            {
+                manual2 = Time.Input();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+
+            Console.WriteLine($"{manual1} - {manual2} = {manual1-manual2}");
+
+
+        }
     }
 }

@@ -8,28 +8,24 @@
 
     public QuadraticEquation() : base()
     {
-        Discriminant();
         Solve();
     }
 
     public QuadraticEquation(int a, int b, int c) : 
         base(a, b, c)
     {
-        Discriminant();
         Solve();
     }
 
     public QuadraticEquation(QuadraticEquation other) : 
         base(other.Num1, other.Num2, other.Num3)
     {
-        Discriminant();
         Solve();
     }
 
     public QuadraticEquation(Nums other) : 
         base(other)
     {
-        Discriminant();
         Solve();
     }
 
@@ -55,25 +51,40 @@
             return _x2; 
         }
     }
-    public float A
+    public int A
     {
         get 
         { 
             return Num1; 
         }
+        set
+        {
+            Num1 = value;
+            Solve();
+        }
     }
-    public float B
+    public int B
     {
         get 
         {
             return Num2; 
         }
+        set
+        {
+            Num2 = value;
+            Solve();
+        }
     }
-    public float C
+    public int C
     {
         get 
         { 
             return Num3; 
+        }
+        set
+        {
+            Num3 = value;
+            Solve();
         }
     }
 
@@ -84,12 +95,22 @@
     }
     private void Solve()
     {
+        Discriminant();
         if (A == 0)
         {
-            _x1 = -C / B;
-            _x2 = -X1;
-        }
+            if (B != 0)
+            {
+                _x1 = -C / B;
+                
+            }
+            else
+            {
+                _x1 = 0;
 
+            }
+            _x2 = X1;
+        }
+        else
         if (D == 0)
         {
             _x1 = -B/(2*A);
@@ -109,9 +130,9 @@
 
     public string PrintAnsver()
     {
-        if (D>0)
+        if (D>=0)
         {
-            return $"x1 = {X1},x2 = {X2}";
+            return $"x1 = {X1}, x2 = {X2}";
         }
         else
         {
@@ -149,7 +170,14 @@
                 s += C;
             }
         }
-
+        if (s == "")
+        {
+            s = "0 = 0";
+        }
+        else
+        {
+            s += " = 0";
+        }
         return s;
     }
 }

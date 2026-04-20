@@ -1,15 +1,21 @@
-﻿internal class Time
+﻿using System;
+
+internal class Time
 {
     private byte _hours;
     private byte _minutes;
 
-
-    public Time(byte hours, byte minutes)
+    public Time(int hours, int minutes)
     {
-        int total = hours * 60 + minutes;
-        total %= 24 * 60;
-        this._hours = (byte)(total / 60);
-        this._minutes = (byte)(total % 60);
+        int totalMinutes = hours * 60 + minutes;
+        totalMinutes %= 1440;
+        if (totalMinutes < 0)
+        {
+            totalMinutes += 1440;
+        }
+
+        this._hours = (byte)(totalMinutes / 60);
+        this._minutes = (byte)(totalMinutes % 60);
     }
 
     public Time()
@@ -20,51 +26,68 @@
 
     public byte Hours
     {
-        get 
+        get { return _hours; }
+        set
         {
-            return _hours;
-        }
-        private set 
-        {
-            _hours = value;
+            if (value >= 0 && value < 24)
+            {
+                _hours = value;
+            }
         }
     }
 
     public byte Minutes
     {
-        get 
+        get { return _minutes; }
+            set
         {
-            return _minutes;
-        }
-        private set 
-        {
+            if (value < 0 || value >= 60)
+            {
+                
+            }
             _minutes = value;
         }
+        
     }
 
+    public static Time Input()
+    {
+        Console.WriteLine("введите часы:");
+        bool ok1 = int.TryParse(Console.ReadLine(), out int h1);
+        if (!ok1)
+        {
+            throw new FormatException("не удалось разобрать часы");
+        }
+        Console.WriteLine("введите минуты:");
+        bool ok2 = int.TryParse(Console.ReadLine(), out int m1);
+        if (!ok2)
+        {
+            throw new FormatException("Не удалось разобрать минуты");
+        }
+        Time manual1 = new Time(h1, m1);
+
+        
+        return manual1;
+    }
 
     public static Time operator -(Time t1, Time t2)
     {
         int total1 = t1._hours * 60 + t1._minutes;
         int total2 = t2._hours * 60 + t2._minutes;
-        int diff = Math.Abs(total1 - total2);
-        byte hoursDiff = (byte)(diff / 60);
-        byte minutesDiff = (byte)(diff % 60);
-        return new Time(hoursDiff, minutesDiff);
+
+        int diff = total1 - total2;
+
+        return new Time(0, diff);
     }
+
     public static Time operator ++(Time t)
     {
-        int total = t._hours * 60 + t._minutes + 1;
-        total %= 24 * 60;
-        return new Time((byte)(total / 60), (byte)(total % 60));
+        return new Time(t._hours, t._minutes + 1);
     }
 
     public static Time operator --(Time t)
     {
-        int total = t._hours * 60 + t._minutes - 1;
-        total %= 24 * 60;
-        if (total < 0) total += 24 * 60;
-        return new Time((byte)(total / 60), (byte)(total % 60));
+        return new Time(t._hours, t._minutes - 1);
     }
 
     public static implicit operator int(Time t)
@@ -74,7 +97,11 @@
 
     public static explicit operator bool(Time t)
     {
-        return t._hours != 0 || t._minutes != 0;
+        if (t._hours == 0 && t._minutes == 0)
+        {
+            return false;
+        }
+        return true;
     }
 
     public static bool operator <(Time t1, Time t2)
@@ -86,8 +113,9 @@
     {
         return (int)t1 > (int)t2;
     }
+
     public override string ToString()
     {
-        return $"{Hours}:{Minutes}";
+        return _hours.ToString("D2") + ":" + _minutes.ToString("D2");
     }
 }
