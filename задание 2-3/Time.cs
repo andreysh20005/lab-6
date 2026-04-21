@@ -13,7 +13,6 @@ internal class Time
         {
             totalMinutes += 1440;
         }
-
         this._hours = (byte)(totalMinutes / 60);
         this._minutes = (byte)(totalMinutes % 60);
     }
@@ -24,31 +23,43 @@ internal class Time
         this._minutes = 0;
     }
 
-    public byte Hours
+    public int Hours
     {
-        get { return _hours; }
+        get 
+        {
+            return _hours;
+        }
         set
         {
-            if (value >= 0 && value < 24)
-            {
-                _hours = value;
+            int totalHours = value % 24;
+            if (totalHours < 0) 
+            { 
+                totalHours += 24; 
             }
+            _hours = (byte)totalHours;
         }
     }
 
-    public byte Minutes
+    public int Minutes
     {
-        get { return _minutes; }
+        get 
+        {
+            return _minutes; 
+        }
             set
         {
-            if (value < 0 || value >= 60)
+            int totalMinutes = _hours * 60 + value;
+            totalMinutes %= 1440;
+            if (totalMinutes < 0)
             {
-                
+                totalMinutes += 1440;
             }
-            _minutes = value;
+            this._hours = (byte)(totalMinutes / 60);
+            this._minutes = (byte)(totalMinutes % 60);
         }
         
     }
+
 
     public static Time Input()
     {

@@ -8,7 +8,7 @@ internal class Program
         Time t1 = new Time(10, 30);
         Time t2 = new Time(23, 45);
         Time t3 = new Time(5, 15);
-        Time t4 = new Time(6, 0);
+        Time t4 = new Time();
         Time t5 = new Time(25, 70); // проверка нормализации
 
         Console.WriteLine("Конструкторы и ToString():");
@@ -68,9 +68,10 @@ internal class Program
         Console.WriteLine("\n\nручное тестирование:");
         while (true)
         {
-            Console.WriteLine("Ввод первого времени");
+            Console.WriteLine("\nВвод первого времени");
             Time manual1 = new Time();
             Time manual2 = new Time(); 
+
             try
             {
                  manual1 = Time.Input();
@@ -81,8 +82,7 @@ internal class Program
 
             }
 
-
-           Console.WriteLine("Введите второе время:");
+            Console.WriteLine("Введите второе время:");
             try
             {
                 manual2 = Time.Input();
@@ -94,7 +94,31 @@ internal class Program
 
             Console.WriteLine($"{manual1} - {manual2} = {manual1-manual2}");
 
+            Console.WriteLine("задание через свойство:");
+            Time manual3 = new Time();
+            
+            Console.Write("Введите часы:");
 
+            Console.WriteLine($"");
+            try
+            {
+                manual3.Hours = int.Parse(Console.ReadLine());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+
+            }
+            Console.WriteLine("Введите минуты:");
+            try
+            {
+                manual3.Minutes =int.Parse(Console.ReadLine());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            Console.WriteLine($"Результат: {manual3}");
         }
     }
 }

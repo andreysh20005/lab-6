@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5FE9F92-2573-AAB5-1FBF-BF5CA766EA93}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj|c:\\users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5FE9F92-2573-AAB5-1FBF-BF5CA766EA93}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj|solutionrelative:\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A5FE9F92-2573-AAB5-1FBF-BF5CA766EA93}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj|c:\\users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5FE9F92-2573-AAB5-1FBF-BF5CA766EA93}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj|solutionrelative:\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D81DEFB-9319-D03A-F0B9-6F9EE42D68B7}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1.csproj|c:\\users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D81DEFB-9319-D03A-F0B9-6F9EE42D68B7}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1.csproj|solutionrelative:\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5FE9F92-2573-AAB5-1FBF-BF5CA766EA93}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj|c:\\users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5FE9F92-2573-AAB5-1FBF-BF5CA766EA93}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3.csproj|solutionrelative:\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D81DEFB-9319-D03A-F0B9-6F9EE42D68B7}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1.csproj|c:\\users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\quadraticequation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D81DEFB-9319-D03A-F0B9-6F9EE42D68B7}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1.csproj|solutionrelative:\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\quadraticequation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D81DEFB-9319-D03A-F0B9-6F9EE42D68B7}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1.csproj|c:\\users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D81DEFB-9319-D03A-F0B9-6F9EE42D68B7}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1.csproj|solutionrelative:\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D81DEFB-9319-D03A-F0B9-6F9EE42D68B7}|\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1.csproj|c:\\users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\nums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,32 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Nums.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\Nums.cs",
               "RelativeDocumentMoniker": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\Nums.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\Nums.cs",
               "RelativeToolTip": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\Nums.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwD4AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwEQAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T06:45:36.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "QuadraticEquation.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\QuadraticEquation.cs",
-              "RelativeDocumentMoniker": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\QuadraticEquation.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\QuadraticEquation.cs",
-              "RelativeToolTip": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\QuadraticEquation.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAowKwAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T06:45:38.284Z",
               "EditorCaption": ""
             },
             {
@@ -66,33 +49,33 @@
               "RelativeDocumentMoniker": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\Program.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\Program.cs",
               "RelativeToolTip": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 1\\Program.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAowFgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwFAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T06:45:37.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Time.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Time.cs",
               "RelativeDocumentMoniker": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Time.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Time.cs",
               "RelativeToolTip": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Time.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAkwHQAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T06:33:43.582Z",
+              "WhenOpened": "2026-04-21T07:02:41.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Program.cs",
               "RelativeDocumentMoniker": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Program.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\lab 6\\lab-6\\\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Program.cs",
               "RelativeToolTip": "\u0437\u0430\u0434\u0430\u043D\u0438\u0435 2-3\\Program.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAwGsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T06:31:27.836Z",
               "EditorCaption": ""

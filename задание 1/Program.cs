@@ -76,7 +76,6 @@
                         Console.WriteLine($"Уравнение: {manual}");
                         Console.WriteLine($"Дискреминант: {manual.D}");
                         Console.WriteLine(manual.PrintAnsver());
-                        
                     }
                 }
             }
